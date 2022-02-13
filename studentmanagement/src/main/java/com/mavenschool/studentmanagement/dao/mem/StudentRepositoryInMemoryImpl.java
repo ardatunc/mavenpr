@@ -1,7 +1,7 @@
 package com.mavenschool.studentmanagement.dao.mem;
 
 import java.util.ArrayList;
-import java.util.Date;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -27,8 +27,8 @@ public class StudentRepositoryInMemoryImpl implements StudentRepository {
 		
 		Student student2 = new Student();
 		student2.setId(1234);
-		student1.setFirstName("Sait");
-		student1.setLastName("Yıkılmaz");
+		student2.setFirstName("Sait");
+		student2.setLastName("Yikilmaz");
 	
 		studentsMap.put(student1.getId(), student1);
 		studentsMap.put(student2.getId(), student2);

@@ -1,0 +1,10 @@
+C:\Users\Administrator\git\mavenpr\studentmanagement\src\main\java\com\mavenschool\studentmanagement\service\StudentManagementServiceImpl.java
+C:\Users\Administrator\git\mavenpr\studentmanagement\src\main\java\com\mavenschool\studentmanagement\StudentManagementApplication.java
+C:\Users\Administrator\git\mavenpr\studentmanagement\src\main\java\com\mavenschool\studentmanagement\dao\StudentRepository.java
+C:\Users\Administrator\git\mavenpr\studentmanagement\src\main\java\com\mavenschool\studentmanagement\exception\StudentNotFoundException.java
+C:\Users\Administrator\git\mavenpr\studentmanagement\src\main\java\com\mavenschool\studentmanagement\model\Department.java
+C:\Users\Administrator\git\mavenpr\studentmanagement\src\main\java\com\mavenschool\studentmanagement\dao\DepartmentRepository.java
+C:\Users\Administrator\git\mavenpr\studentmanagement\src\main\java\com\mavenschool\studentmanagement\dao\mem\StudentRepositoryInMemoryImpl.java
+C:\Users\Administrator\git\mavenpr\studentmanagement\src\main\java\com\mavenschool\studentmanagement\service\StudentManagementService.java
+C:\Users\Administrator\git\mavenpr\studentmanagement\src\main\java\com\mavenschool\studentmanagement\model\Student.java
+C:\Users\Administrator\git\mavenpr\studentmanagement\src\main\java\com\mavenschool\studentmanagement\web\StudentManagementController.java
