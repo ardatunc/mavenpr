@@ -1,0 +1,2 @@
+# mavenpr
+Öğrenci Yönetim Sistemi
