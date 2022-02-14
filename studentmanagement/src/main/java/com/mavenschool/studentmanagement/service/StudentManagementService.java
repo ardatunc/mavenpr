@@ -13,4 +13,5 @@ public interface StudentManagementService {
 	void createStudent(Student student);
 	void update(Student student);
 	void deleteStudent(Integer id);
+	void updateStudent(Student student);
 }

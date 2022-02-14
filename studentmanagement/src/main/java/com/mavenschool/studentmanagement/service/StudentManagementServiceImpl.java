@@ -29,7 +29,7 @@ public class StudentManagementServiceImpl implements StudentManagementService {
 	public List<Student> findStudent(String lastName) {
 		return studentRepository.findByLastName(lastName);
 	}
-
+	
 	@Override
 	public Student findStudent(Integer id) throws StudentNotFoundException {
 		Student student = studentRepository.findById(id);
@@ -52,6 +52,13 @@ public class StudentManagementServiceImpl implements StudentManagementService {
 	public void deleteStudent(Integer id) {
 		studentRepository.delete(id);
 
+	}
+
+
+	@Override
+	public void updateStudent(Student student) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

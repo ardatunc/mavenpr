@@ -21,17 +21,22 @@ public class StudentRepositoryInMemoryImpl implements StudentRepository {
 
 	public StudentRepositoryInMemoryImpl() {
 		Student student1 = new Student();
-		student1.setId(1703);
+		student1.setId(112);
 		student1.setFirstName("Arda");
 		student1.setLastName("Tunc");
 		
 		Student student2 = new Student();
-		student2.setId(1234);
+		student2.setId(111);
 		student2.setFirstName("Sait");
 		student2.setLastName("Yikilmaz");
 	
+		
 		studentsMap.put(student1.getId(), student1);
-		studentsMap.put(student2.getId(), student2);
+		
+		//studentsMap.put(student1.getId(), student1);
+		
+		//studentsMap.put(student1.getId(), student1);
+		//studentsMap.put(student2.getId(), student2);
 	}
 	
 	@Override
@@ -52,7 +57,7 @@ public class StudentRepositoryInMemoryImpl implements StudentRepository {
 
 	@Override
 	public void create(Student student) {
-		student.setId(123455);
+		student.setId(1234);
 		studentsMap.put(student.getId(),student);
 		
 

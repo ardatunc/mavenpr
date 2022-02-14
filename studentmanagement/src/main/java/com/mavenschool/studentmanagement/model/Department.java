@@ -4,19 +4,19 @@ package com.mavenschool.studentmanagement.model;
 
 public class Department {
 
-	private Integer id;
+	private Long id;
 	private String dept;
 	
 	
 	private Student student;
 
 
-	public Integer getId() {
+	public Long getId() {
 		return id;
 	}
 
 
-	public void setId(Integer id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
